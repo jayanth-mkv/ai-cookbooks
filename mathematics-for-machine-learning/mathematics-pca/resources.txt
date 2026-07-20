@@ -1,0 +1,7 @@
+If you would like to work offline on the Jupyter notebooks, you can download all the notebooks for this course from
+
+https://drive.google.com/open?id=1yjYM3OV979ETuHO9tUUxjUW4cHJOcuNV
+
+To learn how to setup an offline environment, we have provided a document for setting Jupyter notebooks with Anaconda.
+
+https://docs.google.com/document/d/1Sa5zuRWrcQpPftfrTPxD3EyzQ3J7QCBc031ivTxD4uI/edit?usp=sharing

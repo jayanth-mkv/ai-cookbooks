@@ -9,6 +9,7 @@ A learning collection for studying classical machine-learning algorithms, neural
 
 | Area | Included material |
 | --- | --- |
+| Mathematics | [Linear algebra, multivariate calculus, optimization, and PCA course exercises](mathematics-for-machine-learning/) |
 | Neural networks | Perceptron, backpropagation, and practice notebooks |
 | Supervised learning | Linear regression, regression trees, decision trees, K-nearest neighbors, and Naive Bayes |
 | Optimization | Gradient-descent examples |
@@ -43,7 +44,7 @@ Some exercises may need extra packages, downloaded datasets, a local PostgreSQL 
 
 ## Maintenance status
 
-This repository is retained as a growing cookbook. The relational query exercises were consolidated from the former [`ai-research-playbooks`](https://github.com/jayanth-mkv/ai-research-playbooks) repository, which remains available as the original historical record.
+This repository is retained as a growing cookbook. It consolidates the former [`ml-courses-cookbooks`](https://github.com/jayanth-mkv/ml-courses-cookbooks) mathematics exercises and [`ai-research-playbooks`](https://github.com/jayanth-mkv/ai-research-playbooks) relational query exercises. Both source repositories remain available as historical records.
 
 Useful future improvements include a shared environment file, per-exercise runtime notes, dataset provenance, cleaned notebook outputs, and automated execution checks.
 
@@ -53,3 +54,4 @@ Useful future improvements include a shared environment file, per-exercise runti
 - Notebook outputs are historical and are not proof that every exercise runs on a current environment.
 - The collection mixes from-scratch exercises with library-based examples; inspect the implementation before reusing it.
 - The PostgreSQL examples contain local placeholder connection values and expect a separately prepared database; replace them before use.
+- Some mathematics notebooks depend on missing course-provided helper modules and a legacy NumPy version; review their local README before attempting execution.

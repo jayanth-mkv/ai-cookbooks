@@ -1,0 +1,5 @@
+# Conservative baseline for notebooks that use the removed np.float alias.
+# Course-provided readonly helper modules are not included in this repository.
+jupyterlab>=3.6,<5
+matplotlib>=3.5,<3.8
+numpy>=1.21,<1.24
