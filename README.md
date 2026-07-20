@@ -1,36 +1,52 @@
-# ML Algorithms from Scratch
+# Machine Learning Cookbooks
 
-Welcome to my repository containing machine learning algorithms written from scratch in Python! This repository is intended to serve as a resource for anyone looking to gain a deeper understanding of machine learning algorithms, as well as for those looking to implement them in their own projects.
+A notebook collection for studying classical machine-learning algorithms, neural-network fundamentals, preprocessing, reinforcement learning, and scikit-learn workflows.
 
-<p align="center">
-  <img src="https://imgtr.ee/images/2023/03/19/q5w8q.png" alt="Machine Learning">
-</p>
+> [!NOTE]
+> This is a learning archive, not a single installable Python package. Notebook environments and datasets vary, so review each notebook's imports and paths before running it.
 
-## Overview
-This repository contains the following machine learning algorithms implemented from scratch:
+## Notebook catalog
 
-- Linear Regression
-- Gradient Descent
-- Decision Trees
-- K-Nearest Neighbors
-- Naive Bayes
-- Perceptron
-- Multi-Layer-Perceptron
-- Backpropagation
-- K-Means Clustering
+| Area | Included material |
+| --- | --- |
+| Neural networks | Perceptron, backpropagation, and practice notebooks |
+| Supervised learning | Linear regression, regression trees, decision trees, K-nearest neighbors, and Naive Bayes |
+| Optimization | Gradient-descent examples |
+| Reinforcement learning | Q-learning |
+| NLP | Sentiment-analysis notebook |
+| Data preparation | Preprocessing and Colab practice |
+| Libraries | scikit-learn exercises and a combined `Complete.ipynb` notebook |
 
-Each algorithm is implemented using Python and is accompanied by a detailed explanation of its workings, along with relevant code snippets and examples.
+## Getting started
 
-## Usage
-To use any of these algorithms in your own project, simply copy the relevant code from the corresponding Python file in this repository. You can then modify the code as needed to suit your specific use case.
+Create an isolated notebook environment, then install dependencies as the selected notebook requires:
 
-To run the examples provided for each algorithm, simply navigate to the relevant Python file and execute it using Python.
+```bash
+git clone https://github.com/jayanth-mkv/full-machine-learning-cookbooks.git
+cd full-machine-learning-cookbooks
+python -m venv .venv
+# Windows: .venv\Scripts\activate
+# macOS/Linux: source .venv/bin/activate
+pip install jupyterlab numpy pandas matplotlib scikit-learn
+jupyter lab
+```
 
-## Contributing
-I welcome contributions from anyone looking to add new algorithms or improve existing ones. To contribute, simply fork this repository and submit a pull request with your changes.
+Some notebooks may need extra packages, downloaded datasets, or compatibility changes that are not covered by the baseline command.
 
-## Conclusion
-I hope that this repository will serve as a useful resource for anyone looking to learn more about machine learning algorithms or implement them in their own projects. If you have any questions or feedback, please don't hesitate to reach out to me.
+## How to use this repository
 
+1. Pick a topic directory rather than running the full collection at once.
+2. Read the notebook from top to bottom and inspect data paths before execution.
+3. Restart the kernel and run all cells to check reproducibility.
+4. Record any additional dependency versions beside the notebook when updating it.
 
+## Maintenance status
+
+This repository is retained as a growing cookbook. Useful future improvements include a shared environment file, per-notebook runtime notes, dataset provenance, cleaned output cells, and automated notebook execution checks.
+
+## Limitations
+
+- Dependencies and Python versions are not pinned.
+- Notebook outputs are historical and are not proof that every notebook runs on a current environment.
+- The collection mixes from-scratch exercises with library-based examples; inspect the implementation before reusing it.
 
