@@ -24,8 +24,8 @@ A learning collection for studying classical machine-learning algorithms, neural
 Create an isolated notebook environment, then install dependencies as the selected notebook requires:
 
 ```bash
-git clone https://github.com/jayanth-mkv/full-machine-learning-cookbooks.git
-cd full-machine-learning-cookbooks
+git clone https://github.com/jayanth-mkv/ai-cookbooks.git
+cd ai-cookbooks/full-machine-learning-cookbooks
 python -m venv .venv
 # Windows: .venv\Scripts\activate
 # macOS/Linux: source .venv/bin/activate
