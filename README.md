@@ -19,6 +19,8 @@ AI Cookbooks brings two complementary learning collections into one repository w
 
 Each notebook or exercise should be treated as an independent learning unit. Review its code, dataset requirements, and runtime assumptions before running it.
 
+Topics and implementations can grow over time; the repository is organized to keep each learning path discoverable without presenting the collection as one fixed curriculum or runtime.
+
 ## Collections
 
 | Collection | Covers | Start here |
