@@ -1,6 +1,6 @@
 <div align="center">
   <h1>AI Cookbooks</h1>
-  <p><strong>Practical notebook collections for machine learning, data science, federated learning, and LLM pre-training.</strong></p>
+  <p><strong>A growing library of practical learning paths across foundational, applied, and generative AI.</strong></p>
   <p>Learning material for exploration and study—not a single installable package or unified production system.</p>
 
   [![Jupyter notebooks](https://img.shields.io/badge/Jupyter-notebook%20collections-F37626?logo=jupyter&logoColor=white)](#collections)
@@ -20,6 +20,10 @@ AI Cookbooks brings two complementary learning collections into one repository w
 Each notebook or exercise should be treated as an independent learning unit. Review its code, dataset requirements, and runtime assumptions before running it.
 
 Topics and implementations can grow over time; the repository is organized to keep each learning path discoverable without presenting the collection as one fixed curriculum or runtime.
+
+## Catalog direction
+
+Future tracks can cover additional AI concepts, implementation patterns, and applied learning material. A topic is added only when its notebooks or source material are committed and its place in the catalog is documented; the collections below describe what is available today.
 
 ## Collections
 
